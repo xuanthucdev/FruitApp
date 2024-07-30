@@ -1,22 +1,16 @@
 ﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Thêm dịch vụ MVC vào container.
 builder.Services.AddControllersWithViews();
-
-// Thêm các dịch vụ cho ứng dụng ASP.NET Core
-builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseDeveloperExceptionPage();
-}
-else
+// Cấu hình pipeline xử lý HTTP.
+if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
@@ -30,5 +24,10 @@ app.UseRouting();
 app.UseAuthorization();
 
 
+
+// Cấu hình route
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}");
 
 app.Run();

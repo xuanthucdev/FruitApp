@@ -25,3 +25,5 @@ C:\Users\emthuczz\source\repos\ProjectDotNet\obj\Debug\net8.0\ProjectDotNet.genr
 C:\Users\emthuczz\source\repos\ProjectDotNet\obj\Debug\net8.0\ref\ProjectDotNet.dll
 C:\Users\emthuczz\source\repos\ProjectDotNet\obj\Debug\net8.0\ProjectDotNet.RazorAssemblyInfo.cache
 C:\Users\emthuczz\source\repos\ProjectDotNet\obj\Debug\net8.0\ProjectDotNet.RazorAssemblyInfo.cs
+C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\ProjectDotNet.staticwebassets.runtime.json
+C:\Users\emthuczz\source\repos\ProjectDotNet\obj\Debug\net8.0\ProjectDotNet.sourcelink.json
