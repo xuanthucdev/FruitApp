@@ -27,7 +27,8 @@ app.UseAuthorization();
 
 // Cấu hình route
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}");
+      name: "default",
+    pattern: "{action=Index}/{id?}",
+    defaults: new { controller = "Home" });
 
 app.Run();

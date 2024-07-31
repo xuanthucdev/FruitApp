@@ -7,11 +7,11 @@ namespace ProjectDotNet.Controllers
     {
 		public IActionResult Index()
 		{
-            return View("~/Views/Home/Index.cshtml"); // Đặt đường dẫn tới view
+            return View(); // Đặt đường dẫn tới view
         }
 		public IActionResult Shop()
 		{
-			return View("~/Views/Home/Shop.cshtml");
+			return View();
 		}
 
 		public IActionResult ShopDetail()
