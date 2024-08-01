@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\CustomCss\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
     },
@@ -21,32 +25,32 @@
       "PackagePath": "staticwebassets\\assets\\img\\banner-fruits.jpg"
     },
     {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\best-product-1.jpg"
-    },
-    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\best-product-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-3.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\best-product-3.jpg"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\best-product-4.jpg"
     },
     {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-5.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\best-product-5.jpg"
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\cachua.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cachua.jpg"
     },
     {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-6.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\best-product-6.jpg"
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\cam.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\cam.jpg"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\cart-page-header-img.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\cart-page-header-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\chuoi.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\chuoi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\chuoi2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\chuoi2.png"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\featur-1.jpg",
@@ -97,40 +101,40 @@
       "PackagePath": "staticwebassets\\assets\\img\\hero-img.jpg"
     },
     {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\khoaitay.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\khoaitay.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\nho.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\nho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\otchuong.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\otchuong.jpg"
+    },
+    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\payment.png",
       "PackagePath": "staticwebassets\\assets\\img\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\rau.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\rau.jpg"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\single-item.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\single-item.jpg"
     },
     {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\suplo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\suplo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\tao.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tao.jpg"
+    },
+    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\testimonial-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\vegetable-item-1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\vegetable-item-1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\vegetable-item-2.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\vegetable-item-2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\vegetable-item-3.png",
-      "PackagePath": "staticwebassets\\assets\\img\\vegetable-item-3.png"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\vegetable-item-4.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\vegetable-item-4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\vegetable-item-5.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\vegetable-item-5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\vegetable-item-6.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\vegetable-item-6.jpg"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\js\\main.js",

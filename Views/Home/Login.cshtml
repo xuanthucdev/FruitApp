@@ -1,5 +1,77 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="~/assets/CustomCss/custom.css">
+</head>
+<body>
+
+    <div class="cont">
+        <div class="form sign-in">
+            <h2>Chào mừng bạn!!!</h2>
+            <label>
+                <span>Email</span>
+                <input type="email" />
+            </label>
+            <label>
+                <span>Password</span>
+                <input type="password" />
+            </label>
+            <p class="forgot-pass">Quên mật khẩu ?</p>
+            <button type="button" class="submit">Đăng nhập</button>
+            <button type="button" class="submit_home">
+                <a href="/index" class="a_style">Trang chủ</a>
+            </button>
+        </div>
+        <div class="sub-cont">
+            <div class="img">
+                <div class="img__text m--up">
+
+                    <h3>Bạn không có tài khoản? Vui lòng đăng kí!</h3>
+                </div>
+                <div class="img__text m--in">
+
+                    <h3>Nếu bạn có tài khoản, hãy đăng nhập.</h3>
+                </div>
+                <div class="img__btn">
+                    <span class="m--up">Đăng kí</span>
+                    <span class="m--in">Đăng nhập</span>
+                </div>
+            </div>
+            <div class="form sign-up">
+                <h2>Tạo tài khoản</h2>
+                <label>
+                    <span>Name</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Email</span>
+                    <input type="email" />
+                </label>
+                <label>
+                    <span>Password</span>
+                    <input type="password" />
+                </label>
+
+                <label>
+                    <span>Phone</span>
+                    <input type="text" />
+                </label>
+                <label>
+                    <span>Address</span>
+                    <input type="text" />
+                </label>
+                <button type="button" class="submit">Đăng kí</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function() {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
+</body>
+</html>
