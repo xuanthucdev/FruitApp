@@ -3,24 +3,128 @@
   "WorkspaceRootPath": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\cart\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\wwwroot\\assets\\customcss\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:wwwroot\\assets\\customcss\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shop\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shop\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shop_detail\\shopdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shop_detail\\shopdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\testimonial\\testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\testimonial\\testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\checkout\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\checkout\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\wwwroot\\assets\\img\\8764038.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -139,62 +243,6 @@
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:wwwroot\\assets\\img\\avatar.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\page404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\page404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:wwwroot\\assets\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\projectdotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:projectdotnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -205,26 +253,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\wwwroot\\assets\\img\\nho.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:wwwroot\\assets\\img\\nho.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\testimonial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\shopdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\shopdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -238,21 +266,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 5,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\css\\style.css",
               "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\css\\style.css",
               "RelativeToolTip": "wwwroot\\assets\\css\\style.css",
-              "ViewState": "AQIAAMMBAAAAAAAAAIBZwNYBAAAqAAAA",
+              "ViewState": "AQIAAM0BAAAAAAAAAAAIwPEBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-07-30T04:46:17.103Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -268,35 +295,35 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "hero-img.jpg - Bitmap [1920x1080, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img.jpg",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\img\\hero-img.jpg",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img.jpg - Bitmap [1920x1080, 24 bit, JPG]",
-              "RelativeToolTip": "wwwroot\\assets\\img\\hero-img.jpg - Bitmap [1920x1080, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-08-01T01:02:09.797Z",
-              "EditorCaption": " - Bitmap [1920x1080, 24 bit, JPG]"
+              "DocumentIndex": 10,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T05:35:21.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-06T06:35:51.409Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "hero-img-1.png - PNG [600x400, 32 bit, PNG]",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img-1.png",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\img\\hero-img-1.png",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img-1.png - PNG [600x400, 32 bit, PNG]",
-              "RelativeToolTip": "wwwroot\\assets\\img\\hero-img-1.png - PNG [600x400, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-08-01T01:02:10.463Z",
-              "EditorCaption": " - PNG [600x400, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "custom.css",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\custom.css",
               "RelativeDocumentMoniker": "wwwroot\\assets\\CustomCss\\custom.css",
@@ -304,37 +331,336 @@
               "RelativeToolTip": "wwwroot\\assets\\CustomCss\\custom.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-08-01T01:14:15.45Z",
+              "WhenOpened": "2024-08-01T01:14:15.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:09:07.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Cart\\Cart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Cart\\Cart.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Cart.cshtml",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAAALAAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T16:57:50.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAUwD4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T15:53:38.633Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T16:42:25.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T05:33:30.254Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "fruite-item-6.jpg - Bitmap [500x350, 24 bit, JPG]",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-6.jpg",
-              "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-6.jpg",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-6.jpg - Bitmap [500x350, 24 bit, JPG]",
-              "RelativeToolTip": "wwwroot\\assets\\img\\fruite-item-6.jpg - Bitmap [500x350, 24 bit, JPG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-08-01T01:02:08.896Z",
-              "EditorCaption": " - Bitmap [500x350, 24 bit, JPG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "Views\\Home\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T14:35:15.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-06T05:33:11.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T05:35:36.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T05:03:34.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T15:24:53.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\Shop.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Shop.cshtml",
+              "ViewState": "AQIAAEsBAAAAAAAAAAAuwHEBAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T17:14:22.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T14:35:15.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:59:11.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ShopDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop_detail\\ShopDetail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop_detail\\ShopDetail.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop_detail\\ShopDetail.cshtml",
+              "RelativeToolTip": "Views\\Shop_detail\\ShopDetail.cshtml",
+              "ViewState": "AQIAAAICAAAAAAAAAAAwPRMCAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T12:44:49.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Testimonial.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Testimonial\\Testimonial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Testimonial\\Testimonial.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Testimonial\\Testimonial.cshtml",
+              "RelativeToolTip": "Views\\Testimonial\\Testimonial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T12:46:07.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Checkout\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Checkout.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Checkout\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Checkout.cshtml",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAuwOAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T16:55:54.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-06T05:34:12.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\MyDBContext.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\MyDBContext.cs",
+              "RelativeToolTip": "Models\\MyDBContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:48:46.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:48:25.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryServiceImpl.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryServiceImpl.cs",
+              "RelativeToolTip": "Services\\CategoryServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:09:22.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T01:32:28.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\ProductServiceImpl.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductServiceImpl.cs",
+              "RelativeToolTip": "Services\\ProductServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T01:32:27.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwCQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T02:38:23.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:49:18.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\UserServiceImpl.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserServiceImpl.cs",
+              "RelativeToolTip": "Services\\UserServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:09:54.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T01:09:35.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T04:58:42.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T00:49:11.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "testimonial-1.jpg - Bitmap [100x100, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\testimonial-1.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\testimonial-1.jpg",
@@ -346,46 +672,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAUwCgAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T15:24:53.769Z",
-              "EditorCaption": ""
+              "DocumentIndex": 34,
+              "Title": "fruite-item-6.jpg - Bitmap [500x350, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-6.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-6.jpg",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-6.jpg - Bitmap [500x350, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\assets\\img\\fruite-item-6.jpg - Bitmap [500x350, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-01T01:02:08.896Z",
+              "EditorCaption": " - Bitmap [500x350, 24 bit, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Home\\_Layout.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAuwE8AAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T15:53:38.633Z",
-              "EditorCaption": ""
+              "DocumentIndex": 32,
+              "Title": "hero-img-1.png - PNG [600x400, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img-1.png",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\img\\hero-img-1.png",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img-1.png - PNG [600x400, 32 bit, PNG]",
+              "RelativeToolTip": "wwwroot\\assets\\img\\hero-img-1.png - PNG [600x400, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-01T01:02:10.463Z",
+              "EditorCaption": " - PNG [600x400, 32 bit, PNG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\MyDBContext.cs",
-              "RelativeDocumentMoniker": "Models\\MyDBContext.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\MyDBContext.cs",
-              "RelativeToolTip": "Models\\MyDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T00:48:46.922Z",
-              "EditorCaption": ""
+              "DocumentIndex": 33,
+              "Title": "hero-img.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\img\\hero-img.jpg",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\assets\\img\\hero-img.jpg - Bitmap [1920x1080, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-08-01T01:02:09.797Z",
+              "EditorCaption": " - Bitmap [1920x1080, 24 bit, JPG]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 35,
               "Title": "fruite-item-5.jpg - Bitmap [500x350, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-5.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-5.jpg",
@@ -397,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 31,
               "Title": "8764038.jpg - Bitmap [3000x2000, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\8764038.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\8764038.jpg",
@@ -409,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 38,
               "Title": "suplo.jpg - Bitmap [406x366, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\suplo.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\suplo.jpg",
@@ -421,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 39,
               "Title": "single-item.jpg - Bitmap [800x800, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\single-item.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\single-item.jpg",
@@ -433,7 +756,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 41,
               "Title": "khoaitay.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\khoaitay.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\khoaitay.jpg",
@@ -445,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 37,
               "Title": "tao.jpg - Bitmap [500x500, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\tao.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\tao.jpg",
@@ -457,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 42,
               "Title": "hero-img-2.jpg - Bitmap [600x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\hero-img-2.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\hero-img-2.jpg",
@@ -469,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 40,
               "Title": "rau.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\rau.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\rau.jpg",
@@ -481,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 43,
               "Title": "fruite-item-4.jpg - Bitmap [500x350, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-4.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-4.jpg",
@@ -493,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 44,
               "Title": "fruite-item-3.jpg - Bitmap [500x350, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-3.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-3.jpg",
@@ -505,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 45,
               "Title": "fruite-item-2.jpg - Bitmap [500x350, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-2.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-2.jpg",
@@ -517,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 46,
               "Title": "fruite-item-1.jpg - Bitmap [500x350, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\fruite-item-1.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\fruite-item-1.jpg",
@@ -529,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 47,
               "Title": "featur-3.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\featur-3.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\featur-3.jpg",
@@ -541,7 +864,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 48,
               "Title": "featur-2.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\featur-2.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\featur-2.jpg",
@@ -553,7 +876,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 49,
               "Title": "featur-1.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\featur-1.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\featur-1.jpg",
@@ -565,7 +888,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 50,
               "Title": "chuoi2.png - PNG [500x400, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\chuoi2.png",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\chuoi2.png",
@@ -577,7 +900,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 51,
               "Title": "chuoi.jpg - Bitmap [500x500, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\chuoi.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\chuoi.jpg",
@@ -589,7 +912,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 52,
               "Title": "cart-page-header-img.jpg - Bitmap [1920x300, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\cart-page-header-img.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\cart-page-header-img.jpg",
@@ -601,7 +924,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 54,
               "Title": "cachua.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\cachua.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\cachua.jpg",
@@ -613,7 +936,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 55,
               "Title": "best-product-4.jpg - Bitmap [500x500, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-4.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\best-product-4.jpg",
@@ -625,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 56,
               "Title": "best-product-2.jpg - Bitmap [500x500, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\best-product-2.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\best-product-2.jpg",
@@ -637,7 +960,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 57,
               "Title": "banner-fruits.jpg - Bitmap [500x600, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\banner-fruits.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\banner-fruits.jpg",
@@ -649,7 +972,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 53,
               "Title": "cam.jpg - Bitmap [500x500, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\cam.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\cam.jpg",
@@ -661,7 +984,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 58,
               "Title": "baner-1.png - PNG [600x550, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\baner-1.png",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\baner-1.png",
@@ -673,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 59,
               "Title": "avatar.jpg - Bitmap [70x61, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\avatar.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\avatar.jpg",
@@ -685,150 +1008,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:38:23.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T04:58:42.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CategoryServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryServiceImpl.cs",
-              "RelativeDocumentMoniker": "Services\\CategoryServiceImpl.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryServiceImpl.cs",
-              "RelativeToolTip": "Services\\CategoryServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T01:09:22.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T01:09:35.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "Controllers\\ShopController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T00:59:11.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T00:49:11.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "UserServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserServiceImpl.cs",
-              "RelativeDocumentMoniker": "Services\\UserServiceImpl.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserServiceImpl.cs",
-              "RelativeToolTip": "Services\\UserServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T01:09:54.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T00:48:25.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Services\\CategoryService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T01:09:07.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Page404.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Page404.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Page404.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Page404.cshtml",
-              "RelativeToolTip": "Views\\Home\\Page404.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T17:01:21.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAwwIgDAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T16:42:25.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "ProjectDotNet.csproj",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\ProjectDotNet.csproj",
               "RelativeDocumentMoniker": "ProjectDotNet.csproj",
@@ -836,38 +1016,11 @@
               "RelativeToolTip": "ProjectDotNet.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-01T01:04:03.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T01:04:03.881Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Cart.cs",
-              "RelativeToolTip": "Models\\Cart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T00:49:18.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Checkout.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Checkout.cshtml",
-              "RelativeToolTip": "Views\\Home\\Checkout.cshtml",
-              "ViewState": "AQIAAMkAAAAAAAAAAAAuwOAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T16:55:54.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "otchuong.jpg - Bitmap [500x400, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\otchuong.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\otchuong.jpg",
@@ -879,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 62,
               "Title": "nho.jpg - Bitmap [500x500, 24 bit, JPG]",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\nho.jpg",
               "RelativeDocumentMoniker": "wwwroot\\assets\\img\\nho.jpg",
@@ -891,33 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "ShopDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\ShopDetail.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ShopDetail.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\ShopDetail.cshtml",
-              "RelativeToolTip": "Views\\Home\\ShopDetail.cshtml",
-              "ViewState": "AQIAAPsBAAD8/////79dwBMCAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T12:44:49.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAIBZwB4AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-30T05:03:34.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 63,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -925,47 +1052,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAABYAAAAAAAAAAABhwA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-30T15:51:02.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Cart.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Cart.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Cart.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Cart.cshtml",
-              "RelativeToolTip": "Views\\Home\\Cart.cshtml",
-              "ViewState": "AQIAAJoAAAAAAAAAAIBZwLAAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T16:57:50.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "Shop.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Shop.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Shop.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Shop.cshtml",
-              "RelativeToolTip": "Views\\Home\\Shop.cshtml",
-              "ViewState": "AQIAAEsBAAAAAAAAAAAuwHEBAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-30T17:14:22.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "Testimonial.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Testimonial.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Testimonial.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Testimonial.cshtml",
-              "RelativeToolTip": "Views\\Home\\Testimonial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-31T12:46:07.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-30T15:51:02.057Z"
             }
           ]
         }

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectDotNet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectDotNet.bundle.scp.css"
+    },
+    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\custom.css",
       "PackagePath": "staticwebassets\\assets\\CustomCss\\custom.css"
     },
@@ -11,6 +15,10 @@
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\css\\style.css",
       "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\8764038.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\8764038.jpg"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\avatar.jpg",
@@ -551,6 +559,246 @@
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\css\\site.css",
+      "PackagePath": "staticwebassets\\default\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\favicon.ico",
+      "PackagePath": "staticwebassets\\default\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\js\\site.js",
+      "PackagePath": "staticwebassets\\default\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\default\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\default\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\default\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectDotNet.Microsoft.AspNetCore.StaticWebAssets.props",

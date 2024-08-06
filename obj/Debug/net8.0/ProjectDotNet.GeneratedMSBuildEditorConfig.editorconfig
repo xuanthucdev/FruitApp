@@ -18,38 +18,50 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\emthuczz\source\repos\ProjectDotNet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0LmNzaHRtbA==
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Cart/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGVja291dC5jc2h0bWw=
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Checkout/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tvdXRcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Page404.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWdlNDA0LmNzaHRtbA==
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Shop.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/ShopDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wRGV0YWlsLmNzaHRtbA==
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Shop/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/Testimonial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0aW1vbmlhbC5jc2h0bWw=
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Shop_detail/ShopDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcF9kZXRhaWxcU2hvcERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Home/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGF5b3V0LmNzaHRtbA==
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Testimonial/Testimonial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGltb25pYWxcVGVzdGltb25pYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/emthuczz/source/repos/ProjectDotNet/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ongo6yyowi
