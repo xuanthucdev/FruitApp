@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s0cDlOXVeM8Y3x1iSBVu0l8neUm/31wjEzNiMJwOpF0=",
+  "Hash": "k9ipOc0DC1xEArtwSrNIm4+6dLTdPYQbZpF6loYqkys=",
   "Source": "ProjectDotNet",
   "BasePath": "_content/ProjectDotNet",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjectDotNet.styles.css",
-      "SourceId": "ProjectDotNet",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/ProjectDotNet",
-      "RelativePath": "ProjectDotNet.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjectDotNet.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectDotNet.bundle.scp.css",
-      "SourceId": "ProjectDotNet",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/ProjectDotNet",
-      "RelativePath": "ProjectDotNet.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectDotNet.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\css\\bootstrap.min.css",
       "SourceId": "ProjectDotNet",

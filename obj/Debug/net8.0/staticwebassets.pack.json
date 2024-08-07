@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjectDotNet.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ProjectDotNet.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\custom.css",
       "PackagePath": "staticwebassets\\assets\\CustomCss\\custom.css"
     },

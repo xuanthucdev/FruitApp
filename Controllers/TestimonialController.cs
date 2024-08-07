@@ -2,7 +2,7 @@
 
 namespace ProjectDotNet.Controllers
 {
-    public class ShopController : Controller
+    public class TestimonialController : Controller
     {
         public IActionResult Index()
         {

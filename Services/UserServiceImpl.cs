@@ -1,5 +1,6 @@
 ﻿using ProjectDotNet.Models;
 using Microsoft.EntityFrameworkCore;
+using ProjectDotNet.Database;
 namespace ProjectDotNet.Services
 {
     public class UserServiceImpl : UserService
