@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k9ipOc0DC1xEArtwSrNIm4+6dLTdPYQbZpF6loYqkys=",
+  "Hash": "RtxdfxSwHcHDPP80/Ea816v8gsah4WvnWg/50mmEWKU=",
   "Source": "ProjectDotNet",
   "BasePath": "_content/ProjectDotNet",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\custom.css",
+      "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\login.css",
       "SourceId": "ProjectDotNet",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\",
       "BasePath": "_content/ProjectDotNet",
-      "RelativePath": "assets/CustomCss/custom.css",
+      "RelativePath": "assets/CustomCss/login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +71,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\CustomCss\\custom.css"
+      "OriginalItemSpec": "wwwroot\\assets\\CustomCss\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\register.css",
+      "SourceId": "ProjectDotNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\",
+      "BasePath": "_content/ProjectDotNet",
+      "RelativePath": "assets/CustomCss/register.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\CustomCss\\register.css"
     },
     {
       "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\img\\8764038.jpg",

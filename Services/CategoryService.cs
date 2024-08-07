@@ -1,6 +1,7 @@
 ﻿namespace ProjectDotNet.Services
 {
-    public class CategoryService
+    public interface CategoryService
     {
+        public dynamic findAll();
     }
 }

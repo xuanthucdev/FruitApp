@@ -1,6 +1,7 @@
 ﻿namespace ProjectDotNet.Services
 {
-    public class ProductService
+    public interface ProductService
     {
+        public dynamic findAll();
     }
 }
