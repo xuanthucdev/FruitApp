@@ -14,12 +14,16 @@ namespace ProjectDotNet.Controllers
 
         }
         
-        public IActionResult Index()
+        public IActionResult Index(int id)
         {
-            ViewBag.products = productService.findAll();
-            ViewBag.categories = categoryService.findAll();
+            var product =  productService.findById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            
 
-            return View();
+            return View(product);
         }
     }
 }

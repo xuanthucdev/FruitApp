@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
+using ProjectDotNet.Database;
 using ProjectDotNet.Models;
 using ProjectDotNet.Services;
 using System.Diagnostics;
@@ -12,9 +13,12 @@ namespace ProjectDotNet.Controllers
        
         private CategoryService categoryService;
         private ProductService productService;
+        private readonly ILogger<HomeController> logger;
+        
 
-        public HomeController(CategoryService _categoryService, ProductService _productService )
+        public HomeController(ILogger<HomeController> _logger, CategoryService _categoryService, ProductService _productService )
         {
+            logger = _logger;
            categoryService = _categoryService;
             productService = _productService;
            
@@ -23,6 +27,7 @@ namespace ProjectDotNet.Controllers
         public IActionResult Index()
 
 		{
+            
             ViewBag.product = productService.findAll();
             ViewBag.categories = categoryService.findAll();
             return View(); 

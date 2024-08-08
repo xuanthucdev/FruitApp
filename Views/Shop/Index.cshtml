@@ -190,20 +190,24 @@
                                 @foreach(var product in ViewBag.products)
                                 {
                                     <div class="col-md-6 col-lg-6 col-xl-4">
+                                        <a asp-controller="ShopDetail" asp-action="Index" asp-route-id="@product.Id">
+
+                                        
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="@product.Image" class="img-fluid w-100 h-50 rounded-top" alt="">
                                             </div>
-                                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@product.CategoryName</div>
+                                            <div class="p-4  border border-secondary border-top-0 rounded-bottom">
                                                 <h4>@product.Name</h4>
-                                                <p>@product.Description</p>
+                                                <p></p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">@product.Price/1kg</p>
                                                     <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                 </div>
                                             </div>
                                         </div>
+                                        </a>
                                     </div>
                                 }
 

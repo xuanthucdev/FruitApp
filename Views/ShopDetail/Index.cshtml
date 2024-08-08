@@ -4,6 +4,7 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model ProjectDotNet.Models.Product
 <section>
     <!-- Modal Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -41,15 +42,15 @@
                     <div class="row g-4">
                         <div class="col-lg-6">
                             <div class="border rounded">
-                                <a href="#">
-                                    <img src="img/single-item.jpg" class="img-fluid rounded" alt="Image">
-                                </a>
+                                
+                                    <img src="@Model.Image" class="img-fluid rounded" alt="Image">
+                                
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <h4 class="fw-bold mb-3">Brocoli</h4>
-                            <p class="mb-3">Category: Vegetables</p>
-                            <h5 class="fw-bold mb-3">3,35 $</h5>
+                            <h4 class="fw-bold mb-3">@Model.Name</h4>
+                            <p class="mb-3">Category: @Model.category.Name</p>
+                            <h5 class="fw-bold mb-3">@Model.Price</h5>
                             <div class="d-flex mb-4">
                                 <i class="fa fa-star text-secondary"></i>
                                 <i class="fa fa-star text-secondary"></i>
@@ -115,7 +116,7 @@
                                                         <p class="mb-0">Country of Origin</p>
                                                     </div>
                                                     <div class="col-6">
-                                                        <p class="mb-0">Agro Farm</p>
+                                                        <p class="mb-0">@Model</p>
                                                     </div>
                                                 </div>
                                                 <div class="row bg-light text-center align-items-center justify-content-center py-2">
@@ -247,15 +248,14 @@
                             <div class="mb-4">
                                 <h4>Categories</h4>
                                 <ul class="list-unstyled fruite-categorie">
-                                    @foreach (var c in ViewBag.categories)
-                                    {
+                                    
                                         <li>
                                             <div class="d-flex justify-content-between fruite-name">
-                                                <a href="#"><i class="fas fa-apple-alt me-2"></i>@c.Name</a>
+                                                <a href="#"><i class="fas fa-apple-alt me-2"></i></a>
                                                 <span>(3)</span>
                                             </div>
                                         </li>
-                                    }
+                                    
 
                                 </ul>
                             </div>
