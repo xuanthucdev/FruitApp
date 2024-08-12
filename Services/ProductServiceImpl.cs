@@ -18,28 +18,14 @@ namespace ProjectDotNet.Services
 
         public dynamic findAll()
         {
-            return db.Products
-           .Include(p => p.category)
-           .Join(db.DescriptionDetails,
-                 p => p.DescriptionID,
-                 d => d.Id,
-                 (p, d) => new
-                 {
-                     Id = p.Id,
-                     Name = p.Name,
-                     Price = p.Price,
-                     Image = p.Image,
-                     CategoryName = p.category.Name,
-                     Description = d.Description,
-                     Weight = d.weight,
-                     Country = d.country,
-                     MaxWeight = d.maxWeight,
-                     Quality = d.quality,
-                     Status = d.status
-
-                 })
-           .ToList();
-
+            return db.Products.Include(p => p.category).Select(p => new {
+                Id = p.Id,
+                Name = p.Name,
+                Description = p.Description,
+                Price = p.Price,
+                Image = p.Image,
+                CategoryName = p.category.Name // Bao gồm tên danh mục
+            }).ToList();
         }
 
         public Product findById(int id)

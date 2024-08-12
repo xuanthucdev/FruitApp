@@ -4,7 +4,7 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = null!;
-        public int DescriptionID { get; set; } 
+        public int Description { get; set; } 
         public int CategoryID { get; set; }
         public int Price { get; set; }
         
