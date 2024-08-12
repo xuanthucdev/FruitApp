@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Register Page";
+}
+
+@{
+    Layout = "~/Views/Shared/_LayoutRegister.cshtml";
+}
+
+
+
+
+
+<div class="cont">
+    <div class="form sign-in">
+        <h2>ĐĂNG KÍ</h2>
+        <label>
+            <span>Email</span>
+            <input type="email" />
+        </label>
+        <label>
+            <span>Mật khẩu</span>
+            <input type="password" />
+        </label>
+        <label>
+            <span>Xác nhận mật khẩu</span>
+            <input type="password" />
+        </label>
+        <label>
+            <span>Họ và tên</span>
+            <input type="text" />
+        </label>
+        
+        
+        <button type="button" class="submit">Đăng Kí</button>
+        <button type="button" class="submit_home">
+            <a asp-controller="Home" asp-action="Index" class="a_style">Trang chủ</a>
+        </button>
+        
+    </div>
+    <div class="sub-cont">
+        <div class="img">
+            <div class="img__text m--up">
+
+                <h3>Bạn đã có tài khoản? Hãy đăng nhập!</h3>
+                <button type="button" class="submit_reg">
+                    <a asp-controller="Login" asp-action="Index" class="a_style">Đăng nhập</a>
+                </button>
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+</div>

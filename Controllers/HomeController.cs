@@ -1,21 +1,35 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ViewEngines;
+using ProjectDotNet.Database;
 using ProjectDotNet.Models;
+using ProjectDotNet.Services;
 using System.Diagnostics;
 
 namespace ProjectDotNet.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        
+       
+        private CategoryService categoryService;
+        private ProductService productService;
+        private readonly ILogger<HomeController> logger;
+        
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> _logger, CategoryService _categoryService, ProductService _productService )
         {
-            _logger = logger;
+            logger = _logger;
+           categoryService = _categoryService;
+            productService = _productService;
+           
         }
 
         public IActionResult Index()
+
 		{
+            
+            ViewBag.product = productService.findAll();
+            ViewBag.categories = categoryService.findAll();
             return View(); 
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

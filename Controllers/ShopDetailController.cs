@@ -1,13 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjectDotNet.Services;
 
 namespace ProjectDotNet.Controllers
 {
     public class ShopDetailController : Controller
     {
-        public IActionResult Index()
+        private CategoryService categoryService;
+        private ProductService productService;
+        public ShopDetailController (CategoryService _categoryService, ProductService _productService)
         {
+            categoryService = _categoryService;
+            productService = _productService;
 
-            return View();
+        }
+        
+        public IActionResult Index(int id)
+        {
+            var product =  productService.findById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            
+
+            return View(product);
         }
     }
 }

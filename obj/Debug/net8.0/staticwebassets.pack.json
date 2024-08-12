@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\custom.css",
-      "PackagePath": "staticwebassets\\assets\\CustomCss\\custom.css"
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\login.css",
+      "PackagePath": "staticwebassets\\assets\\CustomCss\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\CustomCss\\register.css",
+      "PackagePath": "staticwebassets\\assets\\CustomCss\\register.css"
     },
     {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\assets\\css\\bootstrap.min.css",
