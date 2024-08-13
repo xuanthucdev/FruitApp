@@ -40,10 +40,10 @@ namespace ProjectDotNet.Database
                 entity.ToTable("products");
                 entity.Property(e => e.Id).HasColumnType("int(11)").HasColumnName("ID");
                 entity.Property(e => e.Name).HasMaxLength(255).HasColumnName("Name");
-                entity.Property(e => e.Description).HasColumnType("int(11)").HasColumnName("Description");
+                entity.Property(e => e.Description).HasMaxLength(100).HasColumnName("Description");
                 entity.Property(e => e.Image).HasMaxLength(100).HasColumnName("imageURL");
                 entity.Property(e => e.CategoryID).HasColumnType("int(2)").HasColumnName("CategoryID");
-                entity.Property(e => e.Price).HasColumnType("int(6)").HasColumnName("Price");
+                entity.Property(e => e.Price).HasColumnType("int(11)").HasColumnName("Price");
             }
             );
             modelBuilder.Entity<Category>(entity =>
