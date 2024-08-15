@@ -24,7 +24,8 @@ namespace ProjectDotNet.Services
                 Description = p.Description,
                 Price = p.Price,
                 Image = p.Image,
-                CategoryName = p.category.Name // Bao gồm tên danh mục
+                CategoryName = p.category.Name, // Bao gồm tên danh mục
+                CategoryDes = p.category.Description
             }).ToList();
         }
 

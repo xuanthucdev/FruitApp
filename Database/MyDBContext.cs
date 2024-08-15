@@ -52,8 +52,8 @@ namespace ProjectDotNet.Database
                 entity.ToTable("categories");
                 entity.Property(e => e.Id).HasColumnType("int(11)").HasColumnName("ID");
                 entity.Property(e => e.Name).HasMaxLength(255).HasColumnName("Name");
-                
 
+                entity.Property(e => e.Description).HasMaxLength(255).HasColumnName("DescriptionCategory");
 
             });
             modelBuilder.Entity<DescriptionDetail>(entity =>

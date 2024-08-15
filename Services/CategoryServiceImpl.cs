@@ -17,7 +17,8 @@ namespace ProjectDotNet.Services
                 new
                 {
                     Id = c.Id,
-                    Name = c.Name
+                    Name = c.Name,
+                    Des = c.Description
                 }
                 ).ToList();
             }
