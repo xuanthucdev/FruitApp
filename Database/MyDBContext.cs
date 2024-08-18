@@ -8,6 +8,7 @@ namespace ProjectDotNet.Database
         {
         }
         public virtual DbSet<Product> Products { get; set; }
+        
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<DescriptionDetail> DescriptionDetails { get; set; }
@@ -46,6 +47,8 @@ namespace ProjectDotNet.Database
                 entity.Property(e => e.Price).HasColumnType("int(11)").HasColumnName("Price");
             }
             );
+            
+         
             modelBuilder.Entity<Category>(entity =>
             {
                 entity.HasKey(e => e.Id).HasName("PRIMARY");

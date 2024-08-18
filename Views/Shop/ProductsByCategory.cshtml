@@ -1,4 +1,4 @@
-﻿@using X.Web.PagedList;
+﻿@model IEnumerable<ProjectDotNet.Models.ProductWithCategory>
 @{
     ViewData["Title"] = "Shop Page";
 }
@@ -34,7 +34,6 @@
         </ol>
     </div>
     <!-- Single Page Header End -->
-    
     <!-- Fruits Shop Start-->
     <div class="container-fluid fruite py-5">
         <div class="container py-5">
@@ -49,8 +48,6 @@
                                     <i class="fa fa-search"></i>
                                 </button>
                             </form>
-
-
                         </div>
                         <div class="col-6"></div>
                         <div class="col-xl-3">
@@ -72,7 +69,7 @@
                                     <div class="mb-3">
                                         <h4>Categories</h4>
                                         <ul class="list-unstyled fruite-categorie">
-                                           
+
                                             @foreach (var c in ViewBag.categories)
                                             {
                                                 <li>
@@ -86,8 +83,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                                
-                                
+                              
+
                                 <div class="col-lg-12">
                                     <h4 class="mb-3">Featured products</h4>
                                     <div class="d-flex align-items-center justify-content-start">
@@ -163,33 +160,32 @@
                         </div>
                         <div class="col-lg-9">
                             <div class="row g-4 justify-content-center">
-                                @foreach(var product in ViewBag.products)
+                                @foreach (var product in Model)
                                 {
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <a asp-controller="ShopDetail" asp-action="Index" asp-route-id="@product.Id">
 
-                                        
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="@product.Image" class="img-fluid w-100 h-50 rounded-top" alt="">
-                                            </div>
-                                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@product.CategoryName</div>
-                                            <div class="p-4  border border-secondary border-top-0 rounded-bottom">
-                                                <h4>@product.Name</h4>
 
-                                                <p>@product.CategoryDes</p>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0">@product.Price/1kg</p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                            <div class="rounded position-relative fruite-item">
+                                                <div class="fruite-img">
+                                                    <img src="@product.Image" class="img-fluid w-100 h-50 rounded-top" alt="">
+                                                </div>
+                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@product.CategoryName</div>
+                                                <div class="p-4  border border-secondary border-top-0 rounded-bottom">
+                                                    <h4>@product.Name</h4>
+
+                                                    <p>@product.CategoryDes</p>
+                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                        <p class="text-dark fs-5 fw-bold mb-0">@product.Price/1kg</p>
+                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
                                         </a>
                                     </div>
                                 }
 
                                 <div class="col-12">
-                                    
                                 </div>
                             </div>
                         </div>

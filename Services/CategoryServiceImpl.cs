@@ -1,4 +1,6 @@
 ﻿using ProjectDotNet.Database;
+using ProjectDotNet.Models;
+using System.Data.Entity;
 
 namespace ProjectDotNet.Services
 {
@@ -11,17 +13,27 @@ namespace ProjectDotNet.Services
         }
 
 
-            public dynamic findAll()
+
+        public dynamic findAll()
             {
-                return db.Categories.Select(c => 
-                new
-                {
-                    Id = c.Id,
-                    Name = c.Name,
-                    Des = c.Description
-                }
-                ).ToList();
-            }
-        
+            return db.Categories
+     .Include(c => c.Products)  
+     .Select(c => new {
+         c.Id,
+         c.Name,
+         c.Description,
+         Products = c.Products.Select(p => new {
+             p.Id,
+             p.Name,
+             p.Price,
+             p.Image
+         }).ToList()  
+     })
+     .ToList();  
+        }
+
+       
+
+       
     }
 }

@@ -3,72 +3,136 @@
   "WorkspaceRootPath": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shop\\searchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shop\\searchproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shop\\productsbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shop\\productsbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shopdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\shopdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\shopdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\productserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\cartserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\cartserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\productwithcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\productwithcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:database\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\testimonialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_layoutregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_layoutregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\productkeyword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\productkeyword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\testimonial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\services\\cartserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:services\\cartserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|c:\\users\\emthuczz\\source\\repos\\projectdotnet\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D383119-576F-432E-8144-9F03ADDDAF37}|ProjectDotNet.csproj|solutionrelative:views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,66 +158,172 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\ShopDetail\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShopDetail\\Index.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\ShopDetail\\Index.cshtml",
-              "RelativeToolTip": "Views\\ShopDetail\\Index.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwDIAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T07:13:46.321Z",
+              "DocumentIndex": 5,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAQwCQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T03:04:38.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Services\\CategoryService.cs",
+              "Title": "TestimonialController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\TestimonialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestimonialController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\TestimonialController.cs",
+              "RelativeToolTip": "Controllers\\TestimonialController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:26:21.601Z"
+              "WhenOpened": "2024-08-18T13:40:32.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "ShopDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopDetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShopDetailController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\ShopDetailController.cs",
+              "RelativeToolTip": "Controllers\\ShopDetailController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T05:18:20.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Database\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "Database\\MyDBContext.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Database\\MyDBContext.cs",
+              "RelativeToolTip": "Database\\MyDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T13:41:09.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CategoryServiceImpl.cs",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryServiceImpl.cs",
               "RelativeDocumentMoniker": "Services\\CategoryServiceImpl.cs",
               "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryServiceImpl.cs",
               "RelativeToolTip": "Services\\CategoryServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:26:21.232Z",
+              "WhenOpened": "2024-08-18T02:29:41.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "SearchProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\SearchProducts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\SearchProducts.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\SearchProducts.cshtml",
+              "RelativeToolTip": "Views\\Shop\\SearchProducts.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAYwFgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T12:53:46.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\ShopDetail\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShopDetail\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\ShopDetail\\Index.cshtml",
+              "RelativeToolTip": "Views\\ShopDetail\\Index.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAYwMkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T05:32:02.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAYwFgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T02:26:09.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsByCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\ProductsByCategory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shop\\ProductsByCategory.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\ProductsByCategory.cshtml",
+              "RelativeToolTip": "Views\\Shop\\ProductsByCategory.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwFUAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T03:27:43.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductWithCategory.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ProductWithCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ProductWithCategory.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ProductWithCategory.cs",
+              "RelativeToolTip": "Models\\ProductWithCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:37:14.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:26:20.818Z",
+              "WhenOpened": "2024-08-18T02:29:42.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
+              "Title": "ProductServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\ProductServiceImpl.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductServiceImpl.cs",
+              "RelativeToolTip": "Services\\ProductServiceImpl.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAGkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T02:29:43.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "UserServiceImpl.cs",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserServiceImpl.cs",
               "RelativeDocumentMoniker": "Services\\UserServiceImpl.cs",
               "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\UserServiceImpl.cs",
               "RelativeToolTip": "Services\\UserServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:26:11.829Z"
+              "WhenOpened": "2024-08-18T14:10:07.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -165,24 +335,110 @@
               "RelativeToolTip": "Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:25:45.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductServiceImpl.cs",
-              "RelativeDocumentMoniker": "Services\\ProductServiceImpl.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\ProductServiceImpl.cs",
-              "RelativeToolTip": "Services\\ProductServiceImpl.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABoAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:25:41.933Z",
+              "WhenOpened": "2024-08-18T06:05:57.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T05:39:22.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAAwJYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T02:26:09.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_LayoutRegister.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_LayoutRegister.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutRegister.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_LayoutRegister.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutRegister.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T13:39:53.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductKeyWord.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ProductKeyWord.cs",
+              "RelativeDocumentMoniker": "Models\\ProductKeyWord.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ProductKeyWord.cs",
+              "RelativeToolTip": "Models\\ProductKeyWord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T12:43:58.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T11:53:40.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T02:51:11.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "Views\\Register\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T06:38:43.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Testimonial\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Testimonial\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Testimonial\\Index.cshtml",
+              "RelativeToolTip": "Views\\Testimonial\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T06:38:44.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CartService.cs",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CartService.cs",
               "RelativeDocumentMoniker": "Services\\CartService.cs",
@@ -190,120 +446,127 @@
               "RelativeToolTip": "Services\\CartService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:25:38.341Z"
+              "WhenOpened": "2024-08-18T03:20:38.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAYwKcAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-15T07:12:29.423Z",
-              "EditorCaption": ""
+              "DocumentIndex": 22,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:30:16.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "Views\\Shop\\Index.cshtml",
-              "ViewState": "AQIAALIAAAAAAAAAAAAAwMsAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-13T09:15:15.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "DocumentIndex": 25,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:36:35.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T06:29:58.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MyDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Database\\MyDBContext.cs",
-              "RelativeDocumentMoniker": "Database\\MyDBContext.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Database\\MyDBContext.cs",
-              "RelativeToolTip": "Database\\MyDBContext.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAuwDcAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T11:37:24.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABwAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T09:15:16.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CartServiceImpl.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CartServiceImpl.cs",
-              "RelativeDocumentMoniker": "Services\\CartServiceImpl.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CartServiceImpl.cs",
-              "RelativeToolTip": "Services\\CartServiceImpl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:25:39.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 24,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
               "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\Category.cs",
               "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:25:47.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-13T09:25:48.396Z"
+              "WhenOpened": "2024-08-18T06:29:58.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-13T08:09:58.131Z"
+              "DocumentIndex": 26,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T03:20:37.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T05:51:54.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "Views\\Checkout\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T02:32:12.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T05:38:05.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_LayoutLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutLogin.cshtml",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Views\\Shared\\_LayoutLogin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-18T05:38:07.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CartServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CartServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\CartServiceImpl.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Services\\CartServiceImpl.cs",
+              "RelativeToolTip": "Services\\CartServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T03:20:38.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T03:20:43.073Z"
             }
           ]
         }

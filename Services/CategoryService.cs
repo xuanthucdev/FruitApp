@@ -1,4 +1,6 @@
-﻿namespace ProjectDotNet.Services
+﻿using ProjectDotNet.Models;
+
+namespace ProjectDotNet.Services
 {
     public interface CategoryService
     {
