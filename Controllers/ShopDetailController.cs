@@ -16,6 +16,7 @@ namespace ProjectDotNet.Controllers
         
         public IActionResult Index(int id)
         {
+            ViewBag.categories = categoryService.findAll();
             var product =  productService.findById(id);
             if (product == null)
             {

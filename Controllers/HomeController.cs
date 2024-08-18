@@ -27,10 +27,11 @@ namespace ProjectDotNet.Controllers
         public IActionResult Index()
 
 		{
-            
-            ViewBag.product = productService.findAll();
-            ViewBag.categories = categoryService.findAll();
-            return View(); 
+
+            var categories = categoryService.findAll();
+            var products = productService.findAll();
+            ViewBag.categories = categories;
+            return View(products); 
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

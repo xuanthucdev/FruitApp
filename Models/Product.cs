@@ -10,7 +10,9 @@
         
         public string Image { get; set; } = null!;
         public virtual Category category { get; set; }
-        
+        public virtual ICollection<ProductKeyWord> Productkeywords { get; set; } = new List<ProductKeyWord>();
+       
+
 
     }
 }
