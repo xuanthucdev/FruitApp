@@ -8,5 +8,6 @@
         public string Image { get; set; }
         public string CategoryName { get; set; }
         public string CategoryDes { get; set; }
+        public int Stock {  get; set; }
     }
 }

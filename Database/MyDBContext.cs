@@ -45,6 +45,7 @@ namespace ProjectDotNet.Database
                 entity.Property(e => e.Image).HasMaxLength(100).HasColumnName("imageURL");
                 entity.Property(e => e.CategoryID).HasColumnType("int(2)").HasColumnName("CategoryID");
                 entity.Property(e => e.Price).HasColumnType("int(11)").HasColumnName("Price");
+                entity.Property(e => e.Stock).HasColumnType("int(11)").HasColumnName("Stock");
             }
             );
             

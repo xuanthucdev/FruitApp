@@ -1,10 +1,23 @@
 ﻿using ProjectDotNet.Models;
-
+using Microsoft.EntityFrameworkCore;
+using ProjectDotNet.Database;
 namespace ProjectDotNet.Services
 {
-    public interface UserService
+    public class UserService 
     {
-        Task<User> LoginAsync(string email, string password);
-        Task<bool> RegisterAsync(User user);
+        private readonly MyDBContext _context;
+        public UserService(MyDBContext context) {
+            _context = context;
+        }
+        public async Task<User> LoginAsync(string email, string password)
+        {
+            return await _context.Users.FirstOrDefaultAsync(u => u.email == email && u.password == password);
+        }
+
+        public async Task<bool> RegisterAsync(User user)
+        {
+           _context.Users.Add(user);
+            return await _context.SaveChangesAsync() > 0;
+        }
     }
 }
