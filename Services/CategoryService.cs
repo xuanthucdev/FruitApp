@@ -1,6 +1,7 @@
-﻿using ProjectDotNet.Database;
+﻿using Microsoft.EntityFrameworkCore;
+using ProjectDotNet.Database;
 using ProjectDotNet.Models;
-using System.Data.Entity;
+
 
 namespace ProjectDotNet.Services
 {
@@ -31,9 +32,12 @@ namespace ProjectDotNet.Services
      })
      .ToList();  
         }
+        public async Task<IEnumerable<Category>> FindAllAsync()
+        {
+            return await db.Categories.ToListAsync();
+        }
 
-       
 
-       
+
     }
 }

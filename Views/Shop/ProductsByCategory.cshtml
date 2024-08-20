@@ -51,15 +51,19 @@
                         </div>
                         <div class="col-6"></div>
                         <div class="col-xl-3">
-                            <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
-                                <label for="fruits">Default Sorting:</label>
-                                <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3" form="fruitform">
-                                    <option value="volvo">Nothing</option>
-                                    <option value="saab">Popularity</option>
-                                    <option value="opel">Organic</option>
-                                    <option value="audi">Fantastic</option>
-                                </select>
-                            </div>
+                            <form id="fruitform" method="get">
+                                <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
+                                    <label for="fruits">Default Sorting:</label>
+                                    <select id="fruits" name="sortOrder" class="border-0 form-select-sm bg-light me-3" onchange="this.form.submit()">
+                                        <option value="none">Nothing</option>
+                                        <option value="popularity">Popularity</option>
+                                        <option value="price_asc">Price: Low to High</option>
+                                        <option value="price_desc">Price: High to Low</option>
+                                        <option value="name_asc">Name: ABC </option>
+                                        <option value="name_desc">Name: Reserve ABC </option>
+                                    </select>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="row g-4">
@@ -70,12 +74,14 @@
                                         <h4>Categories</h4>
                                         <ul class="list-unstyled fruite-categorie">
 
-                                            @foreach (var c in ViewBag.categories)
+                                            @foreach (var item in ViewBag.Categories as List<CategoryProductCount>)
                                             {
                                                 <li>
                                                     <div class="d-flex justify-content-between fruite-name">
-                                                        <a asp-action="ProductsByCategory" asp-controller="Shop" asp-route-categoryId="@c.Id"> <i class="fas fa-apple-alt me-2"></i>@c.Name</a>
-                                                        <span>(3)</span>
+                                                        <a asp-action="ProductsByCategory" asp-controller="Shop" asp-route-categoryId="@item.Category.Id">
+                                                            <i class="fas fa-apple-alt me-2"></i>@item.Category.Name
+                                                        </a>
+                                                        <span>(@item.ProductCount)</span>
                                                     </div>
                                                 </li>
                                             }

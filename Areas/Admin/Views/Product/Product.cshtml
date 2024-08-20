@@ -32,15 +32,37 @@
                                     <td>@p.Stock</td>
                                     <td>@p.CategoryName</td>
                                     <td>
-                                        <a href="#" class="tm-product-delete-link">
-                                            <i class="fas fa-pen"></i>
+                                       
+                                        <form asp-action="EditProduct" asp-area="Admin" asp-controller="Product" method="post" style="display:inline;">
 
-                                        </a>
+
+                                            <input type="hidden" name="id" value="@p.Id" />
+
+                                            <button type="submit" class="btn  btn-sm" style="background: none;
+                                                          border: none;
+                                                        color: inherit;
+                                                        padding: 0;
+                                                        cursor: pointer;
+                                                        width:30px;">
+                                                <i class="fas fa-pen"></i>
+                                            </button>
+                                        </form>
                                     </td>
                                     <td>
-                                        <a href="#" class="tm-product-delete-link">
-                                            <i class="far fa-trash-alt tm-product-delete-icon"></i>
-                                        </a>
+                                        <form asp-action="DeleteProduct" asp-area="Admin" asp-controller="Product" method="post" style="display:inline;">
+                                           
+
+                                            <input type="hidden" name="id" value="@p.Id" />
+
+                                            <button type="submit" class="btn  btn-sm" style="background: none;
+                                                          border: none;
+                                                        color: inherit;
+                                                        padding: 0;
+                                                        cursor: pointer;
+                                                        width:30px;">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+                                        </form>
                                     </td>
                                 </tr>
                             }
@@ -67,10 +89,38 @@
                             {
                                 <tr>
                                     <td class="tm-product-name">@c.Name</td>
-                                    <td class="text-center">
-                                        <a href="#" class="tm-product-delete-link">
-                                            <i class="far fa-trash-alt tm-product-delete-icon"></i>
-                                        </a>
+                                    <td>
+
+                                        <form asp-action="EditCategory" asp-area="Admin" asp-controller="Product" method="post" style="display:inline;">
+
+
+                                            <input type="hidden" name="id"  />
+
+                                            <button type="submit" class="btn  btn-sm" style="background: none;
+                                                          border: none;
+                                                        color: inherit;
+                                                        padding: 0;
+                                                        cursor: pointer;
+                                                        width:30px;">
+                                                <i class="fas fa-pen"></i>
+                                            </button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <form asp-action="DeleteCategory" asp-area="Admin" asp-controller="Product" method="post" style="display:inline;">
+
+
+                                            <input type="hidden" name="id"  />
+
+                                            <button type="submit" class="btn  btn-sm" style="background: none;
+                                                          border: none;
+                                                        color: inherit;
+                                                        padding: 0;
+                                                        cursor: pointer;
+                                                        width:30px;">
+                                                <i class="far fa-trash-alt"></i>
+                                            </button>
+                                        </form>
                                     </td>
                                 </tr>
                             }
@@ -79,18 +129,13 @@
                     </table>
                 </div>
                 <!-- table container -->
-                <button class="btn btn-primary btn-block text-uppercase mb-3">
-                    Add new category
-                </button>
+                <form asp-action="AddCategory" asp-area="Admin" asp-controller="Product" method="post">
+                    <button class="btn btn-primary btn-block text-uppercase mb-3">
+                        Add new category
+                    </button>
+                </form>
             </div>
         </div>
     </div>
 </div>
-<footer class="tm-footer row tm-mt-small">
-    <div class="col-12 font-weight-light">
-        <p class="text-center text-white mb-0 px-4 small">
-            Copyright &copy; <b>2018</b> All rights reserved.
 
-            Design: <a rel="nofollow noopener" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
-        </p>
-    </div>

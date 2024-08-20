@@ -4,6 +4,10 @@ using ProjectDotNet.Models;
 
 
 
+
+
+
+
 namespace ProjectDotNet.Services
 {
     public class ProductService
@@ -20,7 +24,7 @@ namespace ProjectDotNet.Services
 
         public dynamic findAll()
         {
-            return db.Products.Include(p => p.category).Select(p => new {
+            return db.Products.OrderBy(p=> p.Id).Include(p => p.category).Select(p => new {
                 Id = p.Id,
                 Name = p.Name,
                 Description = p.Description,
@@ -129,10 +133,49 @@ namespace ProjectDotNet.Services
             db.Products.Add(product);
             await db.SaveChangesAsync();
         }
+        public async Task DeleteProduct(int id)
+        {
+            var product = await db.Products.FindAsync(id);
+            if (product != null)
+            {
+                db.Products.Remove(product);
+                await db.SaveChangesAsync();
+            }
+        }
 
+        public async Task<Product> GetProductByIdAsync(int id)
+        {
+            return await db.Products
+                                   .Include(p => p.category)
+                                   .FirstOrDefaultAsync(p => p.Id == id);
+        }
+        public async Task UpdateProductAsync(Product product)
+        {
+            var existingProduct = await db.Products.FindAsync(product.Id);
+            if (existingProduct != null)
+            {
+                existingProduct.Name = product.Name;
+                existingProduct.Description = product.Description;
+                existingProduct.Price = product.Price;
+                existingProduct.CategoryID = product.CategoryID;
+                existingProduct.Stock = product.Stock;
+                existingProduct.Image = product.Image;
 
-
-
+                db.Products.Update(existingProduct);
+                await db.SaveChangesAsync();
+            }
+        }
+        public async Task<int> GetProductCountByCategoryAsync(int categoryId)
+        {
+            return await db.Products.CountAsync(p => p.CategoryID == categoryId);
+        }
+        public async Task<List<Product>> FindAllAsync()
+        {
+            
+            return await db.Products
+                .Include(p => p.category) 
+                .ToListAsync();
+        }
     }
 
 }

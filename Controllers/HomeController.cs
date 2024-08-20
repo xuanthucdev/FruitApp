@@ -24,13 +24,14 @@ namespace ProjectDotNet.Controllers
            
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
 
 		{
-
-            var categories = categoryService.findAll();
-            var products = productService.findAll();
+            
+            var categories = await categoryService.FindAllAsync();
+            var products = await productService.FindAllAsync();
             ViewBag.categories = categories;
+            ViewBag.products = products;
             return View(products); 
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
