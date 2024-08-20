@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\ProjectDotNet.csproj": {}
+    "D:\\FruitApp\\ProjectDotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\ProjectDotNet.csproj": {
+    "D:\\FruitApp\\ProjectDotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\ProjectDotNet.csproj",
+        "projectUniqueName": "D:\\FruitApp\\ProjectDotNet.csproj",
         "projectName": "ProjectDotNet",
-        "projectPath": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\ProjectDotNet.csproj",
-        "packagesPath": "C:\\Users\\emthuczz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\obj\\",
+        "projectPath": "D:\\FruitApp\\ProjectDotNet.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\FruitApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emthuczz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

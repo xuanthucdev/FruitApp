@@ -1,0 +1,18 @@
+# Ignore Visual Studio files
+.vs/
+*.vs/
+*.cache
+*.suo
+*.user
+*.userosscache
+*.suo
+*.cache
+*.dbmdl
+*.bak
+*.log
+*.ncb
+*.opendb
+*.VC.db
+*.pdb
+*.dsk
+*.tmp
