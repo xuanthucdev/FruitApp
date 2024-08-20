@@ -4,6 +4,10 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model IEnumerable<ProjectDotNet.Models.Product> 
+
+
+
 <section>
 	
         <!-- Modal Search Start -->
@@ -42,11 +46,11 @@
                         <div id="carouselId" class="carousel slide position-relative" data-bs-ride="carousel">
                             <div class="carousel-inner" role="listbox">
                                 <div class="carousel-item active rounded">
-                                    <img src="img/hero-img-1.png" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
+                                    <img src="~/assets/img/hero-img-1.png" class="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide">
                                     <a href="#" class="btn px-4 py-2 text-white rounded">Fruites</a>
                                 </div>
                                 <div class="carousel-item rounded">
-                                    <img src="img/hero-img-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
+                                <img src="~/assets/img/hero-img-2.jpg" class="img-fluid w-100 h-100 rounded" alt="Second slide">
                                     <a href="#" class="btn px-4 py-2 text-white rounded">Vesitables</a>
                                 </div>
                             </div>
@@ -130,62 +134,62 @@
                         </div>
                         <div class="col-lg-8 text-end">
                             <ul class="nav nav-pills d-inline-flex text-center mb-5">
-                            @foreach (var category in ViewBag.categories)
-                            {
-                                <li class="nav-item" role="presentation">
-                                    <a class="nav-link @((category.Id == ViewBag.categories[0].Id) ? "active" : "")"
-                                       id="tab-@category.Id-tab"
-                                       data-bs-toggle="pill"
-                                       href="#tab-@category.Id"
-                                       role="tab"
-                                       aria-controls="tab-@category.Id"
-                                       aria-selected="@(category.Id == ViewBag.categories[0].Id ? "true" : "false")">
-                                        @category.Name
-                                    </a>
-                                </li>
-                            }
+                             @foreach (var category in ViewBag.categories)
+                             {
+                                 <li class="nav-item" role="presentation">
+                                     <a class="nav-link @((category.Id == ViewBag.categories[0].Id) ? "active" : "")"
+                                        id="tab-@category.Id-tab"
+                                        data-bs-toggle="pill"
+                                        href="#tab-@category.Id"
+                                        role="tab"
+                                        aria-controls="tab-@category.Id"
+                                        aria-selected="@(category.Id == ViewBag.categories[0].Id ? "true" : "false")">
+                                         @category.Name
+                                     </a>
+                                 </li>
+                             }
                                 
                             </ul>
                         </div>
                     </div>
                 <!-- Tab Content -->
                 <div class="tab-content" id="pills-tabContent">
-                    @foreach (var category in ViewBag.categories)
-                    {
-                        <div class="tab-pane fade @((category.Id == ViewBag.categories[0].Id) ? "show active" : "")"
-                             id="tab-@category.Id"
-                             role="tabpanel"
-                             aria-labelledby="tab-@category.Id-tab">
+                     @foreach (var category in ViewBag.categories)
+                     {
+                         <div class="tab-pane fade @((category.Id == ViewBag.categories[0].Id) ? "show active" : "")"
+                              id="tab-@category.Id"
+                              role="tabpanel"
+                              aria-labelledby="tab-@category.Id-tab">
 
-                            <!-- Hiển thị sản phẩm của danh mục này -->
-                            <div class="row">
-                                @foreach (var product in category.Products)
-                                {
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <a asp-controller="ShopDetail" asp-action="Index" asp-route-id="@product.Id">
+                             <!-- Hiển thị sản phẩm của danh mục này -->
+                             <div class="row">
+                                 @foreach (var product in category.Products)
+                                 {
+                                     <div class="col-md-6 col-lg-6 col-xl-4">
+                                         <a asp-controller="ShopDetail" asp-action="Index" asp-route-id="@product.Id">
 
 
-                                            <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="@product.Image" class="img-fluid w-100 h-50 rounded-top" alt="">
-                                                </div>
-                                                <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@category.Name</div>
-                                                <div class="p-4  border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>@product.Name</h4>
+                                             <div class="rounded position-relative fruite-item">
+                                                 <div class="fruite-img">
+                                                     <img src="@product.Image" class="img-fluid w-100 h-50 rounded-top" alt="">
+                                                 </div>
+                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@category.Name</div>
+                                                 <div class="p-4  border border-secondary border-top-0 rounded-bottom">
+                                                     <h4>@product.Name</h4>
 
-                                                    <p>@category.Description</p>
-                                                    <div class="d-flex justify-content-between flex-lg-wrap">
-                                                        <p class="text-dark fs-5 fw-bold mb-0">@product.Price/1kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                }
-                            </div>
-                        </div>
-                    }
+                                                     <p>@category.Description</p>
+                                                     <div class="d-flex justify-content-between flex-lg-wrap">
+                                                         <p class="text-dark fs-5 fw-bold mb-0">@product.Price/1kg</p>
+                                                         <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                     </div>
+                                                 </div>
+                                             </div>
+                                         </a>
+                                     </div>
+                                 }
+                             </div>
+                         </div>
+                     }
                 </div>      
             </div>
         </div>

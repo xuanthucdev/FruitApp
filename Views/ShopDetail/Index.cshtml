@@ -202,12 +202,14 @@
                             <div class="mb-4 mt-4">
                                 <h4>Categories</h4>
                                 <ul class="list-unstyled fruite-categorie">
-                                    @foreach (var c in ViewBag.categories)
+                                    @foreach (var item in ViewBag.Categories as List<CategoryProductCount>)
                                     {
                                         <li>
                                             <div class="d-flex justify-content-between fruite-name">
-                                                <a asp-action="ProductsByCategory" asp-controller="Shop" asp-route-categoryId="@c.Id"> <i class="fas fa-apple-alt me-2"></i>@c.Name</a>
-                                                <span>(3)</span>
+                                                <a asp-action="ProductsByCategory" asp-controller="Shop" asp-route-categoryId="@item.Category.Id">
+                                                    <i class="fas fa-apple-alt me-2"></i>@item.Category.Name
+                                                </a>
+                                                <span>(@item.ProductCount)</span>
                                             </div>
                                         </li>
                                     }

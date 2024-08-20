@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjectDotNet.Models;
 using ProjectDotNet.Services;
 
 namespace ProjectDotNet.Controllers
@@ -14,9 +15,28 @@ namespace ProjectDotNet.Controllers
 
         }
         
-        public IActionResult Index(int id)
+        public async Task<IActionResult> Index(int id)
         {
-            ViewBag.categories = categoryService.findAll();
+           
+            var categories = await categoryService.FindAllAsync();
+
+            var categoriesWithProductCount = new List<CategoryProductCount>();
+
+            foreach (var category in categories)
+            {
+                var productCount = await productService.GetProductCountByCategoryAsync(category.Id);
+                categoriesWithProductCount.Add(new CategoryProductCount
+                {
+                    Category = category,
+                    ProductCount = productCount
+                });
+            }
+
+            ViewBag.Categories = categoriesWithProductCount;
+
+
+
+            
             var product =  productService.findById(id);
             if (product == null)
             {
@@ -25,6 +45,10 @@ namespace ProjectDotNet.Controllers
             
 
             return View(product);
+
+
+
+
         }
     }
 }

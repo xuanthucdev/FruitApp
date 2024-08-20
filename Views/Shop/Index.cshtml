@@ -5,6 +5,10 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+@model X.PagedList.IPagedList<ProjectDotNet.Models.Product>
+
+
+
 <section>
     <!-- Modal Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -54,15 +58,23 @@
                         </div>
                         <div class="col-6"></div>
                         <div class="col-xl-3">
-                            <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
-                                <label for="fruits">Default Sorting:</label>
-                                <select id="fruits" name="fruitlist" class="border-0 form-select-sm bg-light me-3" form="fruitform">
-                                    <option value="volvo">Nothing</option>
-                                    <option value="saab">Popularity</option>
-                                    <option value="opel">Organic</option>
-                                    <option value="audi">Fantastic</option>
-                                </select>
-                            </div>
+                            <form id="fruitform" method="get">
+                                <div class="bg-light ps-3 py-3 rounded d-flex justify-content-between mb-4">
+                                    <label for="fruits">Default Sorting:</label>
+                                    <select id="fruits" name="sortOrder" class="border-0 form-select-sm bg-light me-3" onchange="this.form.submit()">
+                                        <option value="none">Nothing</option>
+                                        <option value="popularity">Popularity</option>
+                                        <option value="price_asc">Price: Low to High</option>
+                                        <option value="price_desc">Price: High to Low</option>
+                                        <option value="name_asc">Name: ABC </option>
+                                        <option value="name_desc">Name: Reserve ABC </option>
+                                    </select>
+                                </div>
+                            </form>
+
+
+
+
                         </div>
                     </div>
                     <div class="row g-4">
@@ -72,13 +84,15 @@
                                     <div class="mb-3">
                                         <h4>Categories</h4>
                                         <ul class="list-unstyled fruite-categorie">
-                                           
-                                            @foreach (var c in ViewBag.categories)
+
+                                            @foreach (var item in ViewBag.Categories as List<CategoryProductCount>)
                                             {
                                                 <li>
                                                     <div class="d-flex justify-content-between fruite-name">
-                                                        <a asp-action="ProductsByCategory" asp-controller="Shop" asp-route-categoryId="@c.Id"> <i class="fas fa-apple-alt me-2"></i>@c.Name</a>
-                                                        <span>(3)</span>
+                                                        <a asp-action="ProductsByCategory" asp-controller="Shop" asp-route-categoryId="@item.Category.Id">
+                                                            <i class="fas fa-apple-alt me-2"></i>@item.Category.Name
+                                                        </a>
+                                                        <span>(@item.ProductCount)</span>
                                                     </div>
                                                 </li>
                                             }
@@ -173,11 +187,11 @@
                                             <div class="fruite-img">
                                                 <img src="@product.Image" class="img-fluid w-100 h-50 rounded-top" alt="">
                                             </div>
-                                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@product.CategoryName</div>
+                                            <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">@product.category.Name</div>
                                             <div class="p-4  border border-secondary border-top-0 rounded-bottom">
                                                 <h4>@product.Name</h4>
 
-                                                <p>@product.CategoryDes</p>
+                                                    <p>@product.category.Description</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">@product.Price/1kg</p>
                                                     <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
@@ -188,8 +202,16 @@
                                     </div>
                                 }
 
-                                <div class="col-12">
-                                    
+                                <div class="pagination" >
+                                   
+
+                                    @for (int i = 1; i <= Model.PageCount; i++)
+                                    {
+                                        var activeClass = Model.PageNumber == i ? "active" : "";
+                                        <a href="@Url.Action("Index", new { page = i, sortOrder = ViewBag.CurrentSort })" class="@activeClass">@i</a>
+                                    }
+
+                                   
                                 </div>
                             </div>
                         </div>

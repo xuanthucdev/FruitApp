@@ -39,6 +39,83 @@ namespace ProjectDotNet.Controllers
                 return RedirectToAction("Index");
             }
         }
+        [HttpPost]
+        public IActionResult AddtoCart([FromBody] AddToCartRequest request)
+        {
+            var product = productService.findById(request.ProductId);
+            if (product == null)
+            {
+                return Json(new { success = false });
+            }
+            else
+            {
+                // Gán số lượng mặc định là 1 nếu không có giá trị
+                int quantity = request.Quantity > 0 ? request.Quantity : 1;
+
+                var cartItem = new CartItem
+                {
+                    ProductID = product.Id,
+                    ProductName = product.Name,
+                    Price = product.Price,
+                    Quantity = quantity,
+                    Image = product.Image,
+                };
+                cartService.AddtoCart(cartItem);
+                return Json(new { success = true });
+            }
+        }
+
+        public class AddToCartRequest
+        {
+            public int ProductId { get; set; }
+            public int Quantity { get; set; } // Có thể nhận giá trị 0 hoặc giá trị hợp lệ
+        }
+
+        [HttpPost]
+        public IActionResult RemoveFromCart([FromBody] int productId)
+        {
+            Console.WriteLine("Received Product ID: " + productId);
+            cartService.RemoveFromCart(productId);
+            return Json(new { success = true });
+        }
+
+
+
+
+        [HttpPost]
+        public IActionResult UpdateQuantity([FromBody] UpdateQuantityRequest request)
+        {
+            var cart = cartService.GetCartItems();
+            var item = cart.FirstOrDefault(i => i.ProductID == request.ProductId);
+
+            if (item != null)
+            {
+                if (request.Action == "increase")
+                {
+                    item.Quantity += 1;
+                }
+                else if (request.Action == "decrease")
+                {
+                    item.Quantity -= 1;
+                    if (item.Quantity <= 0)
+                    {
+                        cart.Remove(item);
+                    }
+                }
+
+                cartService.SaveCart(cart);
+            }
+
+            return Json(new { success = true });
+        }
+
+
+        public class UpdateQuantityRequest
+        {
+            public int ProductId { get; set; }
+            public string Action { get; set; }
+        }
+
 
 
     }
