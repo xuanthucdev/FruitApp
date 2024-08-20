@@ -5,9 +5,9 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-@{
-    var currentSortOrder = ViewBag.CurrentSortOrder as string;
-}
+@model X.PagedList.IPagedList<ProjectDotNet.Models.Product>
+
+
 
 <section>
     <!-- Modal Search Start -->
@@ -202,8 +202,16 @@
                                     </div>
                                 }
 
-                                <div class="col-12">
-                                    
+                                <div class="pagination" >
+                                   
+
+                                    @for (int i = 1; i <= Model.PageCount; i++)
+                                    {
+                                        var activeClass = Model.PageNumber == i ? "active" : "";
+                                        <a href="@Url.Action("Index", new { page = i, sortOrder = ViewBag.CurrentSort })" class="@activeClass">@i</a>
+                                    }
+
+                                   
                                 </div>
                             </div>
                         </div>

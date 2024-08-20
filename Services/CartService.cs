@@ -44,5 +44,22 @@ namespace ProjectDotNet.Services
             var cartJson = JsonConvert.SerializeObject(cartItems);
             session.SetString(CartSessionKey, cartJson);
         }
+        public void RemoveFromCart(int productId)
+        {
+            var cart = GetCartItems();
+
+            var item = cart.FirstOrDefault(i => i.ProductID == productId);
+
+            if (item != null)
+            {
+                cart.Remove(item);
+                SaveCart(cart);
+                Console.WriteLine("Item removed: " + productId);
+            }
+            else
+            {
+                Console.WriteLine("Item not found: " + productId);
+            }
+        }
     }
 }

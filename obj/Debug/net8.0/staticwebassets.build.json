@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XuYvAtpJ1Fe6/YjiQFDf4UEzfO4CweCts7bNADBO4AI=",
+  "Hash": "hM4tOc5Z99Uske+rneJ23NBOQT8Lgi5kYXq4nVGBV94=",
   "Source": "ProjectDotNet",
   "BasePath": "_content/ProjectDotNet",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\admin\\css\\custom.css",
+      "SourceId": "ProjectDotNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\",
+      "BasePath": "_content/ProjectDotNet",
+      "RelativePath": "admin/css/custom.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\css\\custom.css"
     },
     {
       "Identity": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\admin\\css\\fontawesome.min.css",

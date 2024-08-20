@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProjectDotNet.Models;
 using ProjectDotNet.Services;
+using X.PagedList.Extensions;
 
 namespace ProjectDotNet.Controllers
 {
@@ -14,7 +15,7 @@ namespace ProjectDotNet.Controllers
             categoryService = _categoryService;
         }
 
-        public async Task<IActionResult> Index(string sortOrder)
+        public async Task<IActionResult> Index(string sortOrder, int page = 1, int pageSize = 9)
         {
             
             var products = await productService.FindAllAsync();
@@ -38,9 +39,10 @@ namespace ProjectDotNet.Controllers
                    
                     break;
             }
+           
+            var pagedProducts = products.ToPagedList(page, pageSize);
 
-          
-            ViewBag.products = products;
+            ViewBag.products = pagedProducts;
             
 
           
@@ -62,10 +64,10 @@ namespace ProjectDotNet.Controllers
             ViewBag.Categories = categoriesWithProductCount;
 
            
-            return View(products);
+            return View(pagedProducts);
         }
 
-        public async Task<IActionResult> ProductsByCategory(int categoryId, string sortOrder)
+        public async Task<IActionResult> ProductsByCategory(int categoryId, string sortOrder, int page = 1, int pageSize = 9)
         {
             var products = productService.findByCategoryIdd(categoryId);
             switch (sortOrder)
@@ -88,7 +90,9 @@ namespace ProjectDotNet.Controllers
             }
 
 
-            ViewBag.products = products;
+            var pagedProducts = products.ToPagedList(page, pageSize);
+
+            ViewBag.products = pagedProducts;
 
             var categories = await categoryService.FindAllAsync();
 
@@ -108,7 +112,7 @@ namespace ProjectDotNet.Controllers
            
             ViewBag.CategoryId = categoryId;
             ViewBag.CategoryName = "Category Name"; 
-            return View(products);
+            return View(pagedProducts);
         }
         public async Task<IActionResult> SearchProducts(string query, string sortOrder)
         {

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\admin\\css\\bootstrap.min.css"
     },
     {
+      "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\admin\\css\\custom.css",
+      "PackagePath": "staticwebassets\\admin\\css\\custom.css"
+    },
+    {
       "Id": "C:\\Users\\emthuczz\\source\\repos\\ProjectDotNet\\wwwroot\\admin\\css\\fontawesome.min.css",
       "PackagePath": "staticwebassets\\admin\\css\\fontawesome.min.css"
     },
