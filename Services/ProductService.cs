@@ -8,6 +8,7 @@ using ProjectDotNet.Models;
 
 
 
+
 namespace ProjectDotNet.Services
 {
     public class ProductService
@@ -133,6 +134,25 @@ namespace ProjectDotNet.Services
             db.Products.Add(product);
             await db.SaveChangesAsync();
         }
+        public async Task AddCategory(Category cate)
+        {
+            if (cate == null)
+            {
+                throw new ArgumentNullException(nameof(cate), "Category cannot be null.");
+            }
+
+            try
+            {
+                db.Categories.Add(cate);
+                await db.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+               
+                throw new Exception("An error occurred while adding the category.", ex);
+            }
+        }
+
         public async Task DeleteProduct(int id)
         {
             var product = await db.Products.FindAsync(id);
@@ -142,6 +162,7 @@ namespace ProjectDotNet.Services
                 await db.SaveChangesAsync();
             }
         }
+       
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
@@ -176,6 +197,28 @@ namespace ProjectDotNet.Services
                 .Include(p => p.category) 
                 .ToListAsync();
         }
+        public async Task DeleteCategory(int id)
+        {
+            var cate = await db.Categories.FindAsync(id);
+            if (cate != null)
+            {
+                db.Categories.Remove(cate);
+                await db.SaveChangesAsync();
+            }
+        }
+        public async Task<List<Product>> GetProductsByCategoryIdAsync(int categoryId)
+        {
+            return await db.Products
+                                 .Where(p => p.CategoryID == categoryId)
+                                 .ToListAsync();
+        }
+        public async Task<IEnumerable<Product>> GetProductsByPriceRangeAsync(decimal minPrice, decimal maxPrice)
+        {
+            return await db.Products
+                                 .Where(p => p.Price >= minPrice && p.Price <= maxPrice)
+                                 .ToListAsync();
+        }
+
     }
 
 }

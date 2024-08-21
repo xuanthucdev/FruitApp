@@ -1,0 +1,52 @@
+﻿@model ProjectDotNet.Models.Account
+
+@{
+    ViewData["Title"] = "Edit Account";
+}
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .custom-width {
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-12 custom-width">
+            <div class="tm-bg-primary-dark tm-block tm-block-taller tm-block-scroll">
+                <h2 class="tm-block-title">Edit Account</h2>
+                <form asp-action="EditAccountSave" asp-area="Admin" asp-controller="Account" method="post">
+                  
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="form-group mb-3">
+                        <label for="Name">Name</label>
+                        <input id="Name" name="Name" type="text" class="form-control" asp-for="Name" value="@Model.Name" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Phone">Phone</label>
+                        <input id="Phone" name="Phone" type="text" class="form-control" asp-for="Name" value="@Model.Phone" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="Address">Address</label>
+                        <input id="Address" name="Address" type="text" class="form-control" asp-for="Name" value="@Model.Address" required />
+                    </div>
+                   
+                   
+                    <div class="form-group mb-3">
+                        <label for="Role">Role</label>
+                        <select id="Role" name="Role" class="form-control" required>
+                            <option value="0" >Admin</option>
+                            <option value="1" >User</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block text-uppercase">Update Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -9,9 +9,9 @@ namespace ProjectDotNet.Database
         }
         public virtual DbSet<Product> Products { get; set; }
         
-        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Account> Users { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<DescriptionDetail> DescriptionDetails { get; set; }
+        public virtual DbSet<OrderDetails> OrderDetails { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
        => optionsBuilder.UseMySQL("Server=localhost;User ID=root;Password=;Database=fruit_app");
@@ -21,17 +21,17 @@ namespace ProjectDotNet.Database
 
 
 
-            modelBuilder.Entity<User>(entity =>
+            modelBuilder.Entity<Account>(entity =>
             {
                 entity.HasKey(e => e.Id).HasName("PRIMARY");
                 entity.ToTable("users");
-                entity.Property(e => e.Id).HasColumnType("int(11)").HasColumnName("id");
-                entity.Property(e => e.name).HasMaxLength(255).HasColumnName("name");
-                entity.Property(e => e.email).HasMaxLength(255).HasColumnName("email");
-                entity.Property(e => e.password).HasMaxLength(100).HasColumnName("password");
-                entity.Property(e => e.address).HasMaxLength(255).HasColumnName("address");
-                entity.Property(e => e.phone).HasMaxLength(255).HasColumnName("phone");
-
+                entity.Property(e => e.Id).HasColumnType("int(11)").HasColumnName("ID");
+                entity.Property(e => e.Name).HasMaxLength(255).HasColumnName("FullName");
+                entity.Property(e => e.Email).HasMaxLength(255).HasColumnName("Email");
+                entity.Property(e => e.Password).HasMaxLength(100).HasColumnName("Password");
+                entity.Property(e => e.Address).HasMaxLength(255).HasColumnName("Address");
+                entity.Property(e => e.Phone).HasMaxLength(255).HasColumnName("PhoneNumber");
+                entity.Property(e => e.Role).HasColumnType("int(1)").HasColumnName("role");
 
             }
             );
@@ -57,7 +57,7 @@ namespace ProjectDotNet.Database
                 entity.Property(e => e.Id).HasColumnType("int(11)").HasColumnName("ID");
                 entity.Property(e => e.Name).HasMaxLength(255).HasColumnName("Name");
 
-                entity.Property(e => e.Description).HasMaxLength(255).HasColumnName("DescriptionCategory");
+                entity.Property(e => e.Description).HasMaxLength(255).HasColumnName("Description");
 
             });
             modelBuilder.Entity<DescriptionDetail>(entity =>
@@ -74,6 +74,62 @@ namespace ProjectDotNet.Database
 
 
 
+            });
+            modelBuilder.Entity<OrderDetails>(entity =>
+            {
+                entity.HasKey(e => e.ID).HasName("PRIMARY");
+                entity.ToTable("orderdetails");
+
+                entity.Property(e => e.ID)
+                    .HasColumnType("int(11)")
+                    .HasColumnName("ID");
+
+                entity.Property(e => e.OrderID)
+                    .HasColumnType("int(11)")
+                    .HasColumnName("OrderID");
+
+                entity.Property(e => e.ProductID)
+                    .HasColumnType("int(11)")
+                    .HasColumnName("ProductID");
+
+                entity.Property(e => e.Quantity)
+                    .HasColumnType("int(11)")
+                    .HasColumnName("Quantity");
+
+                entity.Property(e => e.UnitPrice)
+                    .HasColumnType("decimal(10,2)")
+                    .HasColumnName("UnitPrice");
+
+                entity.Property(e => e.Total)
+                    .HasColumnType("decimal(10,0)")
+                    .HasColumnName("Total");
+
+                entity.Property(e => e.FirstName)
+                    .HasMaxLength(255)
+                    .HasColumnName("FirstName");
+
+                entity.Property(e => e.LastName)
+                    .HasMaxLength(255)
+                    .HasColumnName("LastName");
+
+                entity.Property(e => e.Address)
+                    .HasColumnType("text")
+                    .HasColumnName("Address");
+
+                entity.Property(e => e.Phone)
+                    .HasMaxLength(255)
+                    .HasColumnName("Phone");
+
+                entity.Property(e => e.Email)
+                    .HasMaxLength(255)
+                    .HasColumnName("Email");
+
+                entity.Property(e => e.Note)
+                    .HasColumnType("text")
+                    .HasColumnName("Note");
+                entity.Property(e => e.status)
+                  .HasColumnType("int(11)")
+                  .HasColumnName("status");
             });
 
 

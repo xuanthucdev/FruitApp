@@ -3,52 +3,57 @@
 @{
     ViewBag.Title = "Edit Product";
 }
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+                        
+<div class="d-flex justify-content-center align-items-center vh-100">
+    
+    <form asp-action="EditProductSave" asp-controller="Product" asp-area="Admin" method="post" class="col-xl-6 col-lg-6 col-md-12">
 
-<h1>Edit Product</h1>
+        <div asp-validation-summary="All" class="text-danger"></div>
 
-<form asp-action="EditProduct" asp-controller="Product" asp-area="Admin" method="post" class="col-xl-6 col-lg-6 col-md-12">
+        <div class="form-group mb-3">
+            <label for="name">Product Name</label>
+            <input id="name" name="Name" type="text" class="form-control" value="@Model.Name" required />
+        </div>
 
-    <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group mb-3">
+            <label for="description">Description</label>
+            <textarea id="description" name="Description" class="form-control" rows="3" required>@Model.Description</textarea>
+        </div>
 
-    <div class="form-group mb-3">
-        <label for="name">Product Name</label>
-        <input id="name" name="Name" type="text" class="form-control" value="@Model.Name" required />
-    </div>
+        <div class="form-group mb-3">
+            <label for="category">Category</label>
+            <select id="category" name="CategoryID" class="form-control" required>
+                <option value="" disabled selected>Select category</option>
+                @foreach (var category in ViewBag.Categories as SelectList)
+                {
+                    <option value="@category.Value">@category.Text</option>
+                }
+            </select>
+        </div>
 
-    <div class="form-group mb-3">
-        <label for="description">Description</label>
-        <textarea id="description" name="Description" class="form-control" rows="3" required>@Model.Description</textarea>
-    </div>
+        <div class="form-group mb-3">
+            <label for="price">Price</label>
+            <input id="price" name="Price" type="number" class="form-control" value="@Model.Price" required />
+        </div>
 
-    <div class="form-group mb-3">
-        <label for="category">Category</label>
-        <select id="category" name="CategoryID" class="form-control" required>
-            <option value="">Select category</option>
-            @foreach (var category in ViewBag.Categories as SelectList)
-            {
-                <option value="@category.Value">@category.Text</option>
-            }
-        </select>
-    </div>
+        <div class="form-group mb-3">
+            <label for="stock">Stock</label>
+            <input id="stock" name="Stock" type="number" class="form-control" value="@Model.Stock" required />
+        </div>
 
-    <div class="form-group mb-3">
-        <label for="price">Price</label>
-        <input id="price" name="Price" type="number" class="form-control" value="@Model.Price" required />
-    </div>
+        <div class="form-group mb-3">
+            <label for="image">Image URL</label>
+            <input id="image" name="Image" type="text" class="form-control" value="@Model.Image" required />
+        </div>
 
-    <div class="form-group mb-3">
-        <label for="stock">Stock</label>
-        <input id="stock" name="Stock" type="number" class="form-control" value="@Model.Stock" required />
-    </div>
+        <input type="hidden" name="Id" value="@Model.Id" />
 
-    <div class="form-group mb-3">
-        <label for="image">Image URL</label>
-        <input id="image" name="Image" type="text" class="form-control" value="@Model.Image" required />
-    </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-block text-uppercase">Save Changes</button>
+        </div>
+    </form>
 
-    <input type="hidden" name="Id" value="@Model.Id" />
-
-    <div class="col-12">
-        <button type="submit" class="btn btn-primary btn-block text-uppercase">Save Changes</button>
-    </div>
-</form>
+</div>
