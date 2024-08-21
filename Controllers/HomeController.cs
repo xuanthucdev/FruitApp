@@ -4,6 +4,7 @@ using ProjectDotNet.Database;
 using ProjectDotNet.Models;
 using ProjectDotNet.Services;
 using System.Diagnostics;
+using X.PagedList.Extensions;
 
 namespace ProjectDotNet.Controllers
 {
@@ -24,14 +25,23 @@ namespace ProjectDotNet.Controllers
            
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int categoryId)
 
 		{
-            
+            int cateIDOfGiamGia = 7;
+            int cateIDOfBanChay = 8;
             var categories = await categoryService.FindAllAsync();
             var products = await productService.FindAllAsync();
             ViewBag.categories = categories;
-            ViewBag.products = products;
+           ViewBag.products = products;
+
+            var productsOfgGiamGia = productService.findByCategoryIdd(7);
+            var productsOfgBanChay = productService.findByCategoryIdd(8);
+            ViewBag.giamgia = productsOfgGiamGia;
+
+            ViewBag.banchay =  productsOfgBanChay;
+
+
             return View(products); 
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
@@ -39,6 +49,7 @@ namespace ProjectDotNet.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
 
     }
 }

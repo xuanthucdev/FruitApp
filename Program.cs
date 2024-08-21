@@ -17,6 +17,8 @@ builder.Services.AddScoped<ProductService>();
 builder.Services.AddScoped<CategoryService>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<CartService>();
+builder.Services.AddScoped<AccountService>();
+builder.Services.AddScoped<OrderService>();
 // add session
 builder.Services.AddSession(options =>
 {

@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Edit Product";
+}
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@model ProjectDotNet.Models.Category
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <form asp-action="EditCategorySave" method="post" asp-area="Admin" asp-controller="Product" class="col-xl-6 col-lg-6 col-md-12">
+
+
+
+
+
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <div class="form-group mb-3">
+            <label for="category">Category</label>
+            <input id="Name" name="Name" type="text" class="form-control validate" value="@Model.Name" required />
+        </div>
+        <div class="form-group mb-3">
+            <label for="description">Description</label>
+            <textarea class="form-control validate" name="Description" rows="3" required  >@Model.Description</textarea>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-block text-uppercase">Update Category Now</button>
+        </div>
+    </form>
+</div>

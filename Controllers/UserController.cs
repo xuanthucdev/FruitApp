@@ -8,8 +8,8 @@ namespace ProjectDotNet.Controllers
 
     {
 
-        private readonly UserService _userService;
-        public UserController(UserService userService)
+        private readonly AccountService _userService;
+        public UserController(AccountService userService)
         {
             _userService = userService;
         }
@@ -32,7 +32,7 @@ namespace ProjectDotNet.Controllers
         [HttpPost]
         [Route("register")]
 
-        public async Task<IActionResult> Register(User user)
+        public async Task<IActionResult> Register(Account user)
         {
             var res = await _userService.RegisterAsync(user);
             if (res) {

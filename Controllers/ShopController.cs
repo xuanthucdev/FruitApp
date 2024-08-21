@@ -15,12 +15,18 @@ namespace ProjectDotNet.Controllers
             categoryService = _categoryService;
         }
 
-        public async Task<IActionResult> Index(string sortOrder, int page = 1, int pageSize = 9)
+        public async Task<IActionResult> Index(string sortOrder, int page = 1, int pageSize = 9, int maxPrice = 1000000)
         {
-            
+            // Lấy tất cả sản phẩm
             var products = await productService.FindAllAsync();
-            
-           
+
+            // Lọc sản phẩm theo giá
+            if (maxPrice > 0)
+            {
+                products = products.Where(p => p.Price <= maxPrice).ToList();
+            }
+
+            // Sắp xếp sản phẩm
             switch (sortOrder)
             {
                 case "price_asc":
@@ -36,19 +42,15 @@ namespace ProjectDotNet.Controllers
                     products = products.OrderByDescending(p => p.Name).ToList();
                     break;
                 default:
-                   
                     break;
             }
-           
+
+            // Phân trang
             var pagedProducts = products.ToPagedList(page, pageSize);
 
             ViewBag.products = pagedProducts;
-            
 
-          
             var categories = await categoryService.FindAllAsync();
-
-           
             var categoriesWithProductCount = new List<CategoryProductCount>();
             foreach (var category in categories)
             {
@@ -60,12 +62,14 @@ namespace ProjectDotNet.Controllers
                 });
             }
 
-           
             ViewBag.Categories = categoriesWithProductCount;
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.MaxPrice = maxPrice;
 
-           
             return View(pagedProducts);
         }
+
+
 
         public async Task<IActionResult> ProductsByCategory(int categoryId, string sortOrder, int page = 1, int pageSize = 9)
         {

@@ -276,3 +276,5 @@ C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\ru\Microsoft.CodeA
 C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\PagedList.dll
+C:\Users\emthuczz\source\repos\ProjectDotNet\bin\Debug\net8.0\PagedList.Mvc.dll
